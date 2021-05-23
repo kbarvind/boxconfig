@@ -10,7 +10,7 @@ sudo add-apt-repository -y ppa:deadsnakes/ppa
 
 sudo apt install -y python3.6 python3-pip python3-setuptools python3-dev build-essential
 
-sudo build-essential libssl-dev libffi-dev python3-dev
+sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 
 sudo apt-get install -y libkrb5-dev
 
@@ -29,8 +29,6 @@ wget -q https://github.com/kbarvind/boxconfig/raw/main/boxconfig/boxconfig-1.0-p
 wget -q https://github.com/kbarvind/boxconfig/raw/main/boxconfig/boxconfig-1.0-py3.7.egg
 
 wget -q https://github.com/kbarvind/boxconfig/raw/main/boxconfig/boxconfig-1.0.tar.gz
-
-pip3.6 install --upgrade pip
 
 python3.6 -m easy_install boxconfig-1.0.tar.gz
 
