@@ -10,6 +10,8 @@ sudo add-apt-repository -y ppa:deadsnakes/ppa
 
 sudo apt install -y python3.6 python3-pip python3-setuptools python3-dev build-essential
 
+sudo apt-get install libkrb5-dev
+
 echo "Creating temporary folder for downloadables"
 
 mkdir -p /tmp/boxconfig/
