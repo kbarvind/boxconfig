@@ -2,6 +2,10 @@
 
 echo "Installing Python"
 
+export CRYPTOGRAPHY_DONT_BUILD_RUST=1
+
+sudo apt upgrade -y
+
 sudo apt update -y
 
 sudo apt install -y software-properties-common
