@@ -27,6 +27,9 @@ wget -q https://github.com/kbarvind/boxconfig/raw/main/boxconfig/boxconfig-1.0-p
 wget -q https://github.com/kbarvind/boxconfig/raw/main/boxconfig/boxconfig-1.0.tar.gz
 
 
+python3.6 -m easy_install boxconfig-1.0.tar.gz
+
+
 
 
 
