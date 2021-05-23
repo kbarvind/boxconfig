@@ -20,11 +20,12 @@ cd /tmp/boxconfig/
 
 echo "Downloading boxconfig "
 
-wget https://github.com/kbarvind/boxconfig/raw/main/boxconfig/boxconfig-1.0-py3-none-any.whl
+wget -q https://github.com/kbarvind/boxconfig/raw/main/boxconfig/boxconfig-1.0-py3-none-any.whl
 
-wget https://github.com/kbarvind/boxconfig/raw/main/boxconfig/boxconfig-1.0-py3.7.egg
+wget -q https://github.com/kbarvind/boxconfig/raw/main/boxconfig/boxconfig-1.0-py3.7.egg
 
-wget https://github.com/kbarvind/boxconfig/raw/main/boxconfig/boxconfig-1.0.tar.gz
+wget -q https://github.com/kbarvind/boxconfig/raw/main/boxconfig/boxconfig-1.0.tar.gz
+
 
 
 
