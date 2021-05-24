@@ -13,3 +13,11 @@ If boxconfig agent is already installed
 
 Run below command to install in remote machine
 boxconfig install -h <host> -u <username> 
+
+
+Procedure 3:
+
+Step1 : Clone repo https://github.com/kbarvind/boxconfig.git
+Step2 : Install Python3.6
+Step3 : Download all distribution packages under boxconfig folder
+Step4 : Run easy_install boxconfig-1.0.tar.gz or python3.6 -m easy_install boxconfig-1.0.tar.gz
