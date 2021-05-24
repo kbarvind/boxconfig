@@ -13,6 +13,16 @@ steps:
           - libapache2-mod-php
        state: install
        
+  - plugin: filecopy
+    config:
+       name: index.php
+       destination: /var/www/html
+       
+  - plugin: filecopy
+    config:
+       name: 000-default.conf
+       destination: /etc/apache2/sites-available
+           
   - plugin: service
     config:
        service: apache2
