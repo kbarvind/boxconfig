@@ -1,0 +1,21 @@
+---
+
+vars:
+  name: apache
+  servercode: php
+  
+steps:
+  - plugin: aptget
+    config:
+       package: 
+          - apache2
+          - php
+          - libapache2-mod-php
+       state: install
+       
+  - plugin: service
+    config:
+       service: apache2
+       action: restart
+       
+   
