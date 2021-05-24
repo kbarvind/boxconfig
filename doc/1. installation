@@ -1,0 +1,15 @@
+
+To Intsall BoxConfig Agent in any Ubuntu Box:
+
+Procedure 1:
+
+Step1 : Clone repo https://github.com/kbarvind/boxconfig.git
+Setp2 : Run bootstrap.sh
+
+
+Procedure 2:
+
+If boxconfig agent is already installed
+
+Run below command to install in remote machine
+boxconfig install -h <host> -u <username> 
